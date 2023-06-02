@@ -1,0 +1,32 @@
+.custom-primary {
+    color: #6C4AB6;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+.navbar-right {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.custom-primary:hover {
+    color: #0056b3;
+}
+
+.input-group {
+    margin-left: -180px;
+    margin-top: 60px;
+}
+.form-control {
+    border-radius: 30px;
+}
+
+.btn-default {
+    border-radius: 30px;
+}
+.nav.navbar-nav {
+    font-weight: bold;
+}
+.custom-primaryimg {
+    margin-top: 40px;
+    margin-left: 30px;
+}
