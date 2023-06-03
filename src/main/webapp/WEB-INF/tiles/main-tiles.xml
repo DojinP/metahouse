@@ -14,5 +14,13 @@
 		<put-attribute name="content" value="/WEB-INF/views/member/profile.jsp"/>
 		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp"/>
 	</definition>
-	
+	<definition name="asset/saleslist" extends="mainTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/market/asset/asset_saleslist.jsp"/>
+	</definition>
+	<definition name="creater/creater_buylist1" extends="mainTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/market/creater/creater_saleslist.jsp"/>
+	</definition>
+	<definition name="creater/creater_saleslist" extends="mainTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/market/creater/creater_buylist.jsp"/>
+	</definition>
 </tiles-definitions>

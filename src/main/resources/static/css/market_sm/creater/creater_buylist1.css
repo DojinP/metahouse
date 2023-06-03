@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	vertical-align: baseline;
+	list-style: none;
+}
+
+.col-lg-9 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+.creater-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.creater-body-title {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.creater-body-title span {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.creater-body-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(141, 114, 225, 0.5);
+    border-radius: 8px;
+    /* 추가된 부분 */
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+.creater-body-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	background-color: #FFFFFF;
+	border: 2px solid #8D72E1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.creater-body-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid var(--bright-purple);
+    border-radius:  8px;
+}
+  
+.creater-body-form-row01 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.creater-body-form-row01 > div {
+  flex: 0 0 48%;
+}
+
+.creater-body-form-search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.creater-body-form-search input {
+	width: auto;
+}
+
+.creater-body-form-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 30px 0px;
+	width: 100%;
+	height: fit-content;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid var(--bright-purple);
+	border-radius: 8px;
+}
+
+.creater-body-form-empty {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.creater-body-form-empty span {
+	margin-bottom: 20px;
+}
+
+.creater-body-buttom-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 125px;
+	background-color: var( --light-blue);
+	border-radius: 8px;
+}
+
+/* creater cardlist */
+.creater-body-cardlist {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width: 720px;
+}
+
+.creater-body-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: auto;
+	height: fit-content;
+	padding: 30px 50px;
+	border: 1px solid var( --bright-purple);
+	border-radius: 8px;
+}
+
+.creater-body-card:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.creater-body-tag {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	flex: 3.07;
+}
+
+.creater-body-tag-row01 {
+	margin-bottom: 15px;
+	
+}
+
+.creater-body-tag-row02 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.creater-body-tag-img {
+	width: 180px;
+	height: 120px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.creater-body-tag-img img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.creater-body-tag-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.creater-body-tag-info-row01 {
+	margin-bottom: 10px;
+}
+
+.creater-body-tag-info-row02 {
+	margin-bottom: 10px;
+}
+
+.creater-body-tag-info-row03 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.asset-body-button {
+	padding: 8px 20px;
+	font-size: 14px;
+}
+
+.creater-body-download {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: rgba(141,114,225,0.1);
+	border-radius: 8px;
+}
+
+/* 다운로드 버튼 기본값 (다운로드 가능) */
+.creater-body-download button {
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	background-color: var(--bright-purple);
+	border-radius: 8px;
+	box-shadow: var(--shade-button);
+}
+
+.creater-body-download button:active {
+	box-shadow: none;
+}
+
+/* 다운로드 기간 만료 */
+.expired {
+	background-color: var(--light-gray);
+	color: var(--gray);
+}
+
+.creater-body-tip {
+	width: 720px;
+	height: fit-content;
+	padding: 30px 40px;
+	background-color: rgba(141,114,225,0.3);
+	margin-top: 50px;
+	border-radius: 8px;
+}
+
+.creater-body-tip li {
+	list-style: disc;
+}
