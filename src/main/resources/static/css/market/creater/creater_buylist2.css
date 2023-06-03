@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+ul {
+	list-style: none;
+}
+
+.col-lg-3 {
+	border: 1px solid red;
+	/* 모니터 꽉 차게 */
+	height: 100vh;
+}
+
+.col-lg-9 {
+	border: 1px solid tomato;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+.creater-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.creater-body-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.creater-body-box-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* box-sizing: border-box; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: fit-content;
+	background-color: rgba(141,114,225,0.5);
+	border-radius: 8px; 
+	
+}
+
+.creater-body-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	background-color: #FFFFFF;
+	border: 2px solid #8D72E1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.creater-body-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 30px;
+	paddig-right: 30px;
+	width: 100%;
+	/* margin-right: 0px; */
+	border: 1px solid black;
+}
+
+.creater-body-form-row01 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.creater-body-form-search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.creater-body-form-search input {
+	width: auto;
+}
+
+.creater-body-form-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 600px;
+	height: 520px;
+	margin-top: 30px;
+	margin-left: 490px;
+	background-color: #FFFFFF;
+	border: 1px solid #C4B0FF;
+	border-radius: 8px;
+}
+
+.creater-body-buttom-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 600px;
+	height: 125px;
+	margin-top: 30px;
+	margin-left: 490px;
+	background-color: var( --light-blue);
+	border-radius: 8px;
+}
