@@ -13,14 +13,14 @@ public class ProjectController {
 	}
 	@GetMapping("/project-form-01")
 	public String projectForm01() {
-		return "mypage/mypage_creator_projectform01";
+		return "project/projectform01";
 	}
 	@GetMapping("/project-form-02")
 	public String projectForm02() {
-		return "mypage/mypage_creator_projectform02";
+		return "project/projectform02";
 	}
 	@GetMapping("/project-form-03")
 	public String projectForm03() {
-		return "mypage/mypage_creator_projectform03";
+		return "project/projectform03";
 	}
 }
