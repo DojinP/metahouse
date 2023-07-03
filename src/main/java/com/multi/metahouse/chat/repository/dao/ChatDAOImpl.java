@@ -14,7 +14,7 @@ import com.multi.metahouse.domain.dto.chat.ChatroomDTO;
 @Repository
 public class ChatDAOImpl implements ChatDAO {
 
-    SqlSession sqlSession;
+    SqlSession sqlSession; 
 
     @Autowired
     public ChatDAOImpl(SqlSession sqlSession) {
